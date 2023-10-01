@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/universe_star_bg.jpg");
+    background-repeat: repeat;
+    z-index: -1;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.meteor {
+    position: fixed;
+    transform: rotate(-87deg);
+    width: 150px;
+}
+
+.meteor .thumb,
+.spaceship .thumb {
+    width: 150px;
+}
+
+.meteor .thumb img,
+.spaceship .thumb img{
+    width: 100%;
+}
+
+.spaceship {
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
